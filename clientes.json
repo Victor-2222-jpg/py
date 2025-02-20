@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mateo Chavez",
+        "email": "juan@email.com",
+        "telefono": "555-1234",
+        "direccion": "Calle 123",
+        "tipo_persona": "Regular"
+    },
+    {
+        "id": 2,
+        "nombre": "Mariana Hernandez",
+        "email": "mariana@email.com",
+        "telefono": "555-8765",
+        "direccion": "Nueva Direcci\u00f3n",
+        "tipo_persona": "Premium"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Frausto",
+        "email": "carlos@email.com",
+        "telefono": "555-9012",
+        "direccion": "Plaza Central",
+        "tipo_persona": "Regular"
+    },
+    {
+        "id": 4,
+        "nombre": "Paco",
+        "email": "paco12@gmail.com ",
+        "telefono": "8711226101",
+        "direccion": "calle inventada #12",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": 5,
+        "nombre": "Raul ",
+        "email": "raul45@gmail.com",
+        "telefono": "8713944040",
+        "direccion": "calle infamias #12",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "6",
+        "nombre": "Carlos Alfredo",
+        "email": "AlfoCa13@gamil.com",
+        "telefono": "8711440989",
+        "direccion": "calle encino #40",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "5",
+        "nombre": "Rodolfo",
+        "email": "rod33@gmail",
+        "telefono": "8711220980",
+        "direccion": "calle nopalera #4",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "7",
+        "nombre": "Paco",
+        "email": "paco98@gmail.com",
+        "telefono": "9767909090",
+        "direccion": "calle elote #200",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "5",
+        "nombre": "Karla",
+        "email": "karla@gmail.com",
+        "telefono": "876909877900",
+        "direccion": "calle oriente",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "6",
+        "nombre": "carlos",
+        "email": "carl00@gmail.com",
+        "telefono": "7812345678",
+        "direccion": "calle del muerto",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "6",
+        "nombre": "Cgo",
+        "email": "cgo@gmail.com",
+        "telefono": "8900789090",
+        "direccion": "calle oriente ",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "fsffrg",
+        "nombre": "vdvdfvdf",
+        "email": "fdvdf",
+        "telefono": "vdvdff",
+        "direccion": "fdvdvdf",
+        "tipo_persona": "dfvd"
+    },
+    {
+        "id": "9",
+        "nombre": "Victor",
+        "email": "vic@gmail.com",
+        "telefono": "87909090",
+        "direccion": "calle",
+        "tipo_persona": "Fisico"
+    },
+    {
+        "id": "9",
+        "nombre": "Eduerdo",
+        "email": "edu@gmail.com",
+        "telefono": "89787866567",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "10",
+        "nombre": "carlos ",
+        "email": "paez",
+        "telefono": "97867554",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "9",
+        "nombre": "Alfonso Reyes",
+        "email": "reyes123@gmail.com",
+        "telefono": "8767655645",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "9",
+        "nombre": "Ramiro",
+        "email": "ram23@gmail.com",
+        "telefono": "897655",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "12",
+        "nombre": "Paola",
+        "email": "pao12@gmail.com",
+        "telefono": "88665654455",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "13",
+        "nombre": "Juan Pablo",
+        "email": "pablito34@gmail.com",
+        "telefono": "23444343",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "11",
+        "nombre": "Federico",
+        "email": "fede78@yahoo.com",
+        "telefono": "77867565656",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "14",
+        "nombre": "Miguel",
+        "email": "migue33@gmail.com",
+        "telefono": "243435",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "15",
+        "nombre": "Hugo",
+        "email": "hug233@gmail.com",
+        "telefono": "89009888",
+        "direccion": "Calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "3",
+        "nombre": "Leonel",
+        "email": "leon33@gmail.com",
+        "telefono": "2234355454",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "4",
+        "nombre": "Jose angel",
+        "email": "ang33434@gmail.com",
+        "telefono": "233544",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
+    }
+]

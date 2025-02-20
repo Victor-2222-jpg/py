@@ -1,0 +1,138 @@
+[
+    {
+        "id": 2,
+        "cliente": {
+            "id": 1,
+            "nombre": "Raul Medina",
+            "email": "raul12@email.com",
+            "telefono": "555-1234",
+            "direccion": "Calle 123",
+            "tipo_persona": "Regular"
+        },
+        "productos": [
+            {
+                "id": 3,
+                "nombre": "Coca Cola",
+                "descripcion": "Refresco de cola",
+                "precio": 15,
+                "cantidad": 3,
+                "categoria": "Bebidas"
+            },
+            {
+                "id": 4,
+                "nombre": "Papas",
+                "descripcion": "Papas fritas",
+                "precio": 10,
+                "cantidad": 4,
+                "categoria": "Abarrotes"
+            }
+        ],
+        "fecha": "2024-03-21",
+        "cantidad": 2,
+        "total": 15500
+    },
+    {
+        "id": "9",
+        "cliente": {
+            "id": "9",
+            "nombre": "Ramiro",
+            "email": "ram23@gmail.com",
+            "telefono": "897655",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "Barritas",
+                "nombre": "Marinela",
+                "descripcion": "ricas",
+                "precio": 33.0,
+                "cantidad": 3,
+                "categoria": "galletas"
+            }
+        ],
+        "fecha": "2025-02-13",
+        "cantidad": 2.0,
+        "total": 100.0
+    },
+    {
+        "id": "11",
+        "cliente": {
+            "id": "12",
+            "nombre": "Paola",
+            "email": "pao12@gmail.com",
+            "telefono": "88665654455",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "Ganzito ",
+                "nombre": "Marinela",
+                "descripcion": "dsd",
+                "precio": 999.0,
+                "cantidad": 2,
+                "categoria": "dulces"
+            }
+        ],
+        "fecha": "2025-02-04",
+        "cantidad": 4.0,
+        "total": "3"
+    },
+    {
+        "id": "12",
+        "cliente": {
+            "id": "13",
+            "nombre": "Juan Pablo",
+            "email": "pablito34@gmail.com",
+            "telefono": "23444343",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "10",
+                "nombre": "Dona ",
+                "descripcion": "dona espolvoreada",
+                "precio": 23.0,
+                "cantidad": 5,
+                "categoria": "pan dulce"
+            },
+            {
+                "id": "11",
+                "nombre": "Concha",
+                "descripcion": "concha de chocolate",
+                "precio": 24.0,
+                "cantidad": 12,
+                "categoria": "pan dulce"
+            }
+        ],
+        "fecha": "2025-02-11",
+        "cantidad": 13.0,
+        "total": "20"
+    },
+    {
+        "id": "13",
+        "cliente": {
+            "id": "3",
+            "nombre": "Leonel",
+            "email": "leon33@gmail.com",
+            "telefono": "2234355454",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "11",
+                "nombre": "CocaCola",
+                "descripcion": "Refresco",
+                "precio": 34.0,
+                "cantidad": 4,
+                "categoria": "Fuente de sodas"
+            }
+        ],
+        "fecha": "2025-02-13",
+        "cantidad": 4.0,
+        "total": "30"
+    }
+]

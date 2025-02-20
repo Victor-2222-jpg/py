@@ -1,0 +1,138 @@
+[
+    {
+        "id": "1",
+        "nombre": "Coca Cola",
+        "descripcion": "Refrescante",
+        "precio": 34.0,
+        "cantidad": 13,
+        "categoria": "Fuente de Sodas"
+    },
+    {
+        "id": "2",
+        "nombre": "Tortillas",
+        "descripcion": "tortillas calientitas",
+        "precio": 20.0,
+        "cantidad": 6,
+        "categoria": "tortilleria"
+    },
+    {
+        "id": "4",
+        "nombre": "Barritas",
+        "descripcion": "galletas",
+        "precio": 30.0,
+        "cantidad": 9,
+        "categoria": "galletas"
+    },
+    {
+        "id": "6",
+        "nombre": "KOKO",
+        "descripcion": "FRURTA",
+        "precio": 49.0,
+        "cantidad": 5,
+        "categoria": "5"
+    },
+    {
+        "id": "hielo",
+        "nombre": "30",
+        "descripcion": "dscds",
+        "precio": 29.0,
+        "cantidad": 2,
+        "categoria": "conglados"
+    },
+    {
+        "id": "5",
+        "nombre": "Harina",
+        "descripcion": "Harina rica",
+        "precio": 50.0,
+        "cantidad": 4,
+        "categoria": "abarrotes"
+    },
+    {
+        "id": "6",
+        "nombre": "Leche Lala",
+        "descripcion": "Lueche fresca",
+        "precio": 30.0,
+        "cantidad": 3,
+        "categoria": "Lacteos"
+    },
+    {
+        "id": "5",
+        "nombre": "Palomitas",
+        "descripcion": "Palomitas de maiz",
+        "precio": 25.0,
+        "cantidad": 5,
+        "categoria": "botanas"
+    },
+    {
+        "id": "6",
+        "nombre": "Coca Cola",
+        "descripcion": "Refresco",
+        "precio": 36.0,
+        "cantidad": 6,
+        "categoria": "Fuente de sodas"
+    },
+    {
+        "id": "5",
+        "nombre": "Galletas",
+        "descripcion": "galletas",
+        "precio": 30.0,
+        "cantidad": 5,
+        "categoria": "galletas"
+    },
+    {
+        "id": "6",
+        "nombre": "palomitas",
+        "descripcion": "palomitas de maiz",
+        "precio": 20.0,
+        "cantidad": 3,
+        "categoria": "botanas"
+    },
+    {
+        "id": "5",
+        "nombre": "Fritos",
+        "descripcion": "frituras",
+        "precio": 20.0,
+        "cantidad": 4,
+        "categoria": "frituras"
+    },
+    {
+        "id": "6",
+        "nombre": "Chetos",
+        "descripcion": "chetos",
+        "precio": 20.0,
+        "cantidad": 3,
+        "categoria": "frituras"
+    },
+    {
+        "id": "12",
+        "nombre": "dfvd",
+        "descripcion": "sdvzs",
+        "precio": 33.0,
+        "cantidad": 3,
+        "categoria": "sfdfsv"
+    },
+    {
+        "id": "13",
+        "nombre": "efdvs",
+        "descripcion": "sdaadads",
+        "precio": 34.0,
+        "cantidad": 4,
+        "categoria": "fsdfsdf"
+    },
+    {
+        "id": "9",
+        "nombre": "nijnj",
+        "descripcion": "vssdas",
+        "precio": 2.0,
+        "cantidad": 4,
+        "categoria": "adaas"
+    },
+    {
+        "id": "10",
+        "nombre": "Ganzito",
+        "descripcion": "Pastelito",
+        "precio": 20.0,
+        "cantidad": 4,
+        "categoria": "Pan dulce"
+    }
+]
