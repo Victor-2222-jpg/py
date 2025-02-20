@@ -49,8 +49,9 @@ class Interfazcliente():
             nuevo_cliente = Cliente(id, nombre, email, telefono, direccion, tipo_persona)
             if self.clientes.save(nuevo_cliente):
                 print("Cliente agregado exitosamente.")
-                self.InsertarDB(nuevo_cliente.dictionary())
+                
                 if not self.Noguardar:
+                    self.InsertarDB(nuevo_cliente.dictionary())
                     self.clientes.saveJson()
                 return nuevo_cliente
             print("Error al guardar el cliente.")

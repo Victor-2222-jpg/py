@@ -48,8 +48,9 @@ class interfazproducto():
             nuevo_producto = Producto(id, nombre, precio, descripcion, categoria, cantidad)
             if self.productos.save(nuevo_producto):
                 print("Producto agregado exitosamente.")
-                self.InsertarDB(nuevo_producto.dictionary())
+                
                 if not self.Noguardar: 
+                    self.InsertarDB(nuevo_producto.dictionary())
                     self.productos.saveJson()
             else:
                 print("Error al guardar el producto.")

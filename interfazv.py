@@ -1,5 +1,6 @@
 
 from venta import Venta
+from cliente import Cliente
 from producto import Producto
 from interfazc import Interfazcliente
 from interfazp import interfazproducto
@@ -43,9 +44,9 @@ class InterfazVenta():
     def Insert(self):
         try:
             print("\n=== REALIZAR VENTA ===")
-            id_venta = input("Ingrese indice de la venta: ")
+            id_venta = input("Ingrese ID de la venta: ")
     
-            cliente = Interfazcliente().Insert()
+            cliente = Interfazcliente(Cliente()).Insert()
 
             productos = interfazproducto(Producto()).Menu()
             total = input("Ingrese total: ")

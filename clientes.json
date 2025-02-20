@@ -190,5 +190,21 @@
         "telefono": "233544",
         "direccion": "calle",
         "tipo_persona": "Fisica"
+    },
+    {
+        "id": "12",
+        "nombre": "Luis ",
+        "email": "lis23@gmail.com",
+        "telefono": "434545454",
+        "direccion": "Calle",
+        "tipo_persona": "Fisica"
+    },
+    {
+        "id": "14",
+        "nombre": "Ringo",
+        "email": "ringostarr23@outlook.com",
+        "telefono": "23435446",
+        "direccion": "calle",
+        "tipo_persona": "Fisica"
     }
 ]
