@@ -4,7 +4,8 @@ class interfazproducto():
     def __init__(self, producto = None):
         if producto is None:
             self.productos = Producto()  
-            self.productos = self.productos.fromJson()
+            self.productos = self.productos.fromJson('productos.json')
+            self.productos_respaldo = Producto().fromJson('productoRespaldo.json')
             self.Noguardar = False 
         else:
             self.productos = producto
@@ -50,8 +51,15 @@ class interfazproducto():
                 print("Producto agregado exitosamente.")
                 
                 if not self.Noguardar: 
-                    self.InsertarDB(nuevo_producto.dictionary())
-                    self.productos.saveJson()
+                    self.productos.saveJson('productos.json')
+                    if(self.productos.check_internet()):
+                        self.InsertarDB(nuevo_producto.dictionary())
+                        self.procesarProductosRespaldo()
+                        print("Conexión a internet establecida")
+                    else:
+                        self.productos_respaldo.save(nuevo_producto)
+                        nuevo_producto.dictionary()
+                        self.productos_respaldo.saveJson('productoRespaldo.json')
             else:
                 print("Error al guardar el producto.")
         except ValueError:
@@ -105,6 +113,15 @@ class interfazproducto():
         coleccion = Producto().conexcionMongoDB("Productos")
         resultado = coleccion.insert_one(producto)
         print(f"Documento insertado con ID: {resultado.inserted_id}")
+
+
+    def procesarProductosRespaldo(self):
+        print("Procesando productos del respaldo...")
+        for producto in self.productos_respaldo.lista_objetos:
+            self.InsertarDB(producto.dictionary())
+        self.productos_respaldo = Producto()
+        self.productos_respaldo.saveJson('productoRespaldo.json')
+        print("Productos del respaldo procesados y enviados a la base de datos")
 
 
     

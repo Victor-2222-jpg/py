@@ -28,7 +28,7 @@ class Producto(Array):
                 "categoria": self.categoria
             }
         
-    def saveJson(self, archivo='productos.json'):
+    def saveJson(self, archivo):
         datos = self.dictionary()
         with open(archivo, 'w') as file:
             json.dump(datos, file, indent=4)
@@ -41,7 +41,7 @@ class Producto(Array):
         datos = self.saveJson()
         return datos
     
-    def fromJson(self, archivo='productos.json'):
+    def fromJson(self, archivo):
             try:
                 with open(archivo, 'r') as file:
                     datos = json.load(file)

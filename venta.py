@@ -30,7 +30,7 @@ class Venta(Array):
                 "total": self.total
             }
 
-    def saveJson(self, archivo='ventas.json'):
+    def saveJson(self, archivo):
         datos = self.dictionary()
         with open(archivo, 'w') as file:
             json.dump(datos, file, indent=4)
@@ -45,7 +45,7 @@ class Venta(Array):
 
        
     
-    def ReadJson(self, archivo='ventas.json'):
+    def ReadJson(self, archivo):
         try:
             if os.path.exists(archivo):
                 with open(archivo, 'r') as file:
@@ -58,7 +58,7 @@ class Venta(Array):
         except Exception as e:
             return None
     
-    def fromJson(self, archivo='ventas.json'):
+    def fromJson(self, archivo):
         datos = self.ReadJson(archivo)
         if datos:
             return self.fromDictionary(datos)

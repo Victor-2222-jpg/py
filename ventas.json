@@ -182,5 +182,461 @@
         "fecha": "2025-02-13",
         "cantidad": 50.0,
         "total": "75"
+    },
+    {
+        "id": "400",
+        "cliente": {
+            "id": "250",
+            "nombre": "Roger",
+            "email": "rog122@gmail.com",
+            "telefono": "32354656",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "600",
+                "nombre": "coco",
+                "descripcion": "coco fruta",
+                "precio": 50.0,
+                "cantidad": 30,
+                "categoria": "fruta"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 40.0,
+        "total": "50"
+    },
+    {
+        "id": "450",
+        "cliente": {
+            "id": "50033",
+            "nombre": "root",
+            "email": "rootrutte@gnmail.com",
+            "telefono": "3344345565",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "cloralex",
+                "nombre": "cloro",
+                "descripcion": "clorro",
+                "precio": 200.0,
+                "cantidad": 4,
+                "categoria": "cloro"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 30.0,
+        "total": "20"
+    },
+    {
+        "id": "3434",
+        "cliente": {
+            "id": "344",
+            "nombre": "ffdf",
+            "email": "wrfdgf@gmai.com",
+            "telefono": "335456",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "767",
+                "nombre": "galleta",
+                "descripcion": "fddfd",
+                "precio": 54.0,
+                "cantidad": 4,
+                "categoria": "galleta"
+            }
+        ],
+        "fecha": "2025-05-02",
+        "cantidad": 5.0,
+        "total": "4"
+    },
+    {
+        "id": "343",
+        "cliente": {
+            "id": "34",
+            "nombre": "francisco",
+            "email": "fran12@gmail.com",
+            "telefono": "3243",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "50",
+                "nombre": "ganzito",
+                "descripcion": "pastelito",
+                "precio": 30.0,
+                "cantidad": 4,
+                "categoria": "pan dulce+"
+            }
+        ],
+        "fecha": "2025-05-10",
+        "cantidad": 4.0,
+        "total": "20"
+    },
+    {
+        "id": "545",
+        "cliente": {
+            "id": "66",
+            "nombre": "Dylab",
+            "email": "dylan45",
+            "telefono": "565665",
+            "direccion": "rog@gmail.com",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "69",
+                "nombre": "Soda",
+                "descripcion": "soda fria",
+                "precio": 40.0,
+                "cantidad": 40,
+                "categoria": "fuente de sodas"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 4.0,
+        "total": "5"
+    },
+    {
+        "id": "65",
+        "cliente": {
+            "id": "79",
+            "nombre": "Carlos",
+            "email": "carl70@gmail.com",
+            "telefono": "56565665",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "79",
+                "nombre": "Cerveza",
+                "descripcion": "cerbeza",
+                "precio": 100.0,
+                "cantidad": 5,
+                "categoria": "bebidas"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 5.0,
+        "total": "4"
+    },
+    {
+        "id": "9999999",
+        "cliente": {
+            "id": "9999",
+            "nombre": "Gerardo",
+            "email": "gera000@gmail.com",
+            "telefono": "56776",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "9999",
+                "nombre": "Limpiador",
+                "descripcion": "producto para labar piso",
+                "precio": 34.0,
+                "cantidad": 4,
+                "categoria": "limpieza"
+            }
+        ],
+        "fecha": "2025-02-12",
+        "cantidad": 4.0,
+        "total": "3"
+    },
+    {
+        "id": "4444",
+        "cliente": {
+            "id": "4444",
+            "nombre": "federico",
+            "email": "fed44@gmail.com",
+            "telefono": "455665",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "44444",
+                "nombre": "galleta",
+                "descripcion": "rica",
+                "precio": 30.0,
+                "cantidad": 4,
+                "categoria": "galleta"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 4.0,
+        "total": "3"
+    },
+    {
+        "id": "888",
+        "cliente": {
+            "id": "888",
+            "nombre": "Hector",
+            "email": "hec45@gmail.com",
+            "telefono": "898787434",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "888",
+                "nombre": "Galleta",
+                "descripcion": "rica",
+                "precio": 40.0,
+                "cantidad": 4,
+                "categoria": "galletas"
+            }
+        ],
+        "fecha": "2025-02-10",
+        "cantidad": 4.0,
+        "total": "3"
+    },
+    {
+        "id": "7777",
+        "cliente": {
+            "id": "77777",
+            "nombre": "Her",
+            "email": "her44@gmail.com",
+            "telefono": "334545656",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "777",
+                "nombre": "Soda",
+                "descripcion": "refrescante",
+                "precio": 39.0,
+                "cantidad": 4,
+                "categoria": "refrescos"
+            }
+        ],
+        "fecha": "2025-01-20",
+        "cantidad": 5.0,
+        "total": "5"
+    },
+    {
+        "id": "3333",
+        "cliente": {
+            "id": "3333",
+            "nombre": "Tomas",
+            "email": "tomy22@gmiail.com",
+            "telefono": "33554",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "333",
+                "nombre": "Tomate",
+                "descripcion": "verdura",
+                "precio": 20.0,
+                "cantidad": 3,
+                "categoria": "verdura"
+            }
+        ],
+        "fecha": "2025-01-20",
+        "cantidad": 4.0,
+        "total": "3"
+    },
+    {
+        "id": "11111",
+        "cliente": {
+            "id": "111",
+            "nombre": "Daniel",
+            "email": "dan25@gmail.com",
+            "telefono": "55566776",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "1111",
+                "nombre": "Mikiway",
+                "descripcion": "chocolate",
+                "precio": 20.0,
+                "cantidad": 2,
+                "categoria": "dulces"
+            }
+        ],
+        "fecha": "2025-02-04",
+        "cantidad": 3.0,
+        "total": "4"
+    },
+    {
+        "id": "2222",
+        "cliente": {
+            "id": "2222",
+            "nombre": "Tadeo",
+            "email": "tade222@gmail.com",
+            "telefono": "326577",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "2222",
+                "nombre": "CarlosV",
+                "descripcion": "chocolate",
+                "precio": 15.0,
+                "cantidad": 20,
+                "categoria": "dulces"
+            }
+        ],
+        "fecha": "2025-02-01",
+        "cantidad": 4.0,
+        "total": "2"
+    },
+    {
+        "id": "66666666",
+        "cliente": {
+            "id": "66666666",
+            "nombre": "luisa",
+            "email": "luisa33@gmail.com",
+            "telefono": "2455656",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "99999999",
+                "nombre": "Pizza",
+                "descripcion": "pizza",
+                "precio": 30.0,
+                "cantidad": 2,
+                "categoria": "comida"
+            }
+        ],
+        "fecha": "2025-02-04",
+        "cantidad": 4.0,
+        "total": "2"
+    },
+    {
+        "id": "78888",
+        "cliente": {
+            "id": "7888",
+            "nombre": "Julia",
+            "email": "july23@gmail.com",
+            "telefono": "54567878",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "78888",
+                "nombre": "Fred",
+                "descripcion": "pastelito",
+                "precio": 20.0,
+                "cantidad": 3,
+                "categoria": "pan dulce"
+            }
+        ],
+        "fecha": "2025-02-01",
+        "cantidad": 2.0,
+        "total": "20"
+    },
+    {
+        "id": "78",
+        "cliente": {
+            "id": "12",
+            "nombre": "dddd",
+            "email": "dd",
+            "telefono": "1221",
+            "direccion": "dsd",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "78",
+                "nombre": "fas",
+                "descripcion": "ads",
+                "precio": 342.0,
+                "cantidad": 43,
+                "categoria": "afd"
+            }
+        ],
+        "fecha": "ed",
+        "cantidad": 24.0,
+        "total": "34"
+    },
+    {
+        "id": "890",
+        "cliente": {
+            "id": "890",
+            "nombre": "Rodrigo",
+            "email": "rodri78@gmail.com",
+            "telefono": "7784433223",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "890",
+                "nombre": "Pan bimbo",
+                "descripcion": "pan de caja",
+                "precio": 40.0,
+                "cantidad": 5,
+                "categoria": "pan"
+            }
+        ],
+        "fecha": "2025-02-04",
+        "cantidad": 4.0,
+        "total": "30"
+    },
+    {
+        "id": "900",
+        "cliente": {
+            "id": "900",
+            "nombre": "Gorg",
+            "email": "gor34",
+            "telefono": "345456",
+            "direccion": "calel",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "9033",
+                "nombre": "geleatina",
+                "descripcion": "gelatina",
+                "precio": 30.0,
+                "cantidad": 3,
+                "categoria": "dulce"
+            }
+        ],
+        "fecha": "2025-02-01",
+        "cantidad": 4.0,
+        "total": "4"
+    },
+    {
+        "id": "8777",
+        "cliente": {
+            "id": "8777",
+            "nombre": "Fre",
+            "email": "fre3@gmail.com",
+            "telefono": "48785654",
+            "direccion": "calle",
+            "tipo_persona": "Fisica"
+        },
+        "productos": [
+            {
+                "id": "87777",
+                "nombre": "Doritos",
+                "descripcion": "fritura",
+                "precio": 20.0,
+                "cantidad": 2,
+                "categoria": "botana"
+            }
+        ],
+        "fecha": "2025-02-22",
+        "cantidad": 2.0,
+        "total": "20"
     }
 ]

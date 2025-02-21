@@ -10,7 +10,9 @@ class InterfazVenta():
     def __init__(self, ventas= None):
         if ventas is None:
             self.ventas = Venta()
-            self.ventas = self.ventas.fromJson()
+            self.ventas = self.ventas.fromJson('ventas.json')
+            self.ventas_respaldo = Venta().fromJson('ventasRespaldo.json')
+            print(self.ventas_respaldo)
             self.Noguardar = False
         else:
             self.ventas = ventas
@@ -57,9 +59,18 @@ class InterfazVenta():
             nueva_venta = Venta(id_venta, cliente, productos, fecha, cantidad, total)
             
             if self.ventas.save(nueva_venta):
-                self.InsertarDB(nueva_venta.dictionary())
+               
                 if not self.Noguardar:
-                    self.ventas.saveJson()
+                    self.ventas.saveJson('ventas.json')
+                    if(self.ventas.check_internet()):
+                        self.InsertarDB(nueva_venta.dictionary())
+                        self.procesarVentasRespaldo()
+                    else:
+                        self.ventas_respaldo.save(nueva_venta)
+                        nueva_venta.dictionary()
+                        self.ventas_respaldo.saveJson('ventasRespaldo.json')
+
+                        print("Conexión a internet establecida")
                 print(f"Venta realizada exitosamente")
                 return nueva_venta  
             
@@ -140,6 +151,14 @@ class InterfazVenta():
         coleccion = Venta().conexcionMongoDB("Ventas")
         resultado = coleccion.insert_one(venta)
         print(f"Documento insertado con ID: {resultado.inserted_id}")
+
+    def procesarVentasRespaldo(self):
+        print("Procesando ventas del respaldo...")
+        for venta in self.ventas_respaldo.lista_objetos:
+            self.InsertarDB(venta.dictionary())
+        self.ventas_respaldo = Venta()
+        self.ventas_respaldo.saveJson('ventasRespaldo.json')
+        print("Ventas del respaldo procesados y enviados a la base de datos")
 
 if __name__ == "__main__":
     interfaz = InterfazVenta()

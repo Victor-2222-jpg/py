@@ -134,5 +134,61 @@
         "precio": 20.0,
         "cantidad": 4,
         "categoria": "Pan dulce"
+    },
+    {
+        "id": "122",
+        "nombre": "Fresca",
+        "descripcion": "refresco",
+        "precio": 20.0,
+        "cantidad": 3,
+        "categoria": "fuente de sodas"
+    },
+    {
+        "id": "1000",
+        "nombre": "Yogurht",
+        "descripcion": "lacteo",
+        "precio": 12.0,
+        "cantidad": 20,
+        "categoria": "20"
+    },
+    {
+        "id": "300",
+        "nombre": "Galleta",
+        "descripcion": "galletas ",
+        "precio": 20.0,
+        "cantidad": 4,
+        "categoria": "galletas"
+    },
+    {
+        "id": "500",
+        "nombre": "Elote",
+        "descripcion": "elote",
+        "precio": 30.0,
+        "cantidad": 4,
+        "categoria": "elote"
+    },
+    {
+        "id": "501",
+        "nombre": "Tamales",
+        "descripcion": "tamalitos",
+        "precio": 15.0,
+        "cantidad": 2,
+        "categoria": "comestibles"
+    },
+    {
+        "id": "502",
+        "nombre": "Nopal",
+        "descripcion": "nopalito",
+        "precio": 20.0,
+        "cantidad": 4,
+        "categoria": "verduraa"
+    },
+    {
+        "id": "505",
+        "nombre": "Aguacate",
+        "descripcion": "aguacate ",
+        "precio": 40.0,
+        "cantidad": 20,
+        "categoria": "verdura"
     }
 ]
