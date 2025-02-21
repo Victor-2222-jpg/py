@@ -27,7 +27,7 @@ class Cliente(Array):
                 "tipo_persona": self.tipo_persona
             }
         
-    def saveJson(self, archivo='clientes.json'):
+    def saveJson(self, archivo):
         datos = self.dictionary()
         with open(archivo, 'w') as file:
             json.dump(datos, file, indent=4)
@@ -40,7 +40,7 @@ class Cliente(Array):
         datos = self.saveJson()
         return datos
     
-    def fromJson(self, archivo='clientes.json'):
+    def fromJson(self, archivo):
             try:
                 with open(archivo, 'r') as file:
                     datos = json.load(file)

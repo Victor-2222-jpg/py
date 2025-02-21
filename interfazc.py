@@ -5,7 +5,9 @@ class Interfazcliente():
     def __init__(self, cliente = None):
         if cliente is None:
             self.clientes = Cliente()  
-            self.clientes = self.clientes.fromJson()
+            self.clientes = self.clientes.fromJson('clientes.json')
+            self.clientes_respaldo = Cliente().fromJson('ClientesRespaldo.json')
+
             self.Noguardar = False 
         else:
             self.clientes = cliente
@@ -51,8 +53,16 @@ class Interfazcliente():
                 print("Cliente agregado exitosamente.")
                 
                 if not self.Noguardar:
-                    self.InsertarDB(nuevo_cliente.dictionary())
-                    self.clientes.saveJson()
+                    self.clientes.saveJson('clientes.json')
+                    if(self.clientes.check_internet()):
+                        self.InsertarDB(nuevo_cliente.dictionary())
+                        self.procesarClientesRespaldo()
+                        print("Conexión a internet establecida")
+                    else:
+                        self.clientes_respaldo.save(nuevo_cliente)
+                        nuevo_cliente.dictionary()
+                        self.clientes_respaldo.saveJson('ClientesRespaldo.json')
+                    
                 return nuevo_cliente
             print("Error al guardar el cliente.")
             return False
@@ -114,6 +124,14 @@ class Interfazcliente():
         coleccion = Cliente().conexcionMongoDB("Clientes")
         resultado = coleccion.insert_one(cliente)
         print(f"Documento insertado con ID: {resultado.inserted_id}")
+    
+    def procesarClientesRespaldo(self):
+        print("Procesando clientes del respaldo...")
+        for cliente in self.clientes_respaldo.lista_objetos:
+            self.InsertarDB(cliente.dictionary())
+        self.clientes_respaldo = Cliente()
+        self.clientes_respaldo.saveJson('ClientesRespaldo.json')
+        print("Clientes del respaldo procesados y enviados a la base de datos")
 
 if __name__ == "__main__":
     interfaz = Interfazcliente()
